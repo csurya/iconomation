@@ -33,7 +33,7 @@ $('.em-woman').animate({
 
 //after a delay, show music note
 
-
+setInterval(
 setTimeout(function()
 {
 $('.em-musical_note').css({
@@ -45,7 +45,7 @@ $('.em-musical_note').animate({
   top:-350
 
 }, 2000);
-}, 1000);
+}, 1000), 500);
 
 
 
