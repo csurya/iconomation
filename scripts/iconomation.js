@@ -33,7 +33,7 @@ $('.em-heart').css({
 
 //then move boy & heart
 $('.em-boy').animate({
-  left: 113
+  left: 115
 }, 1000);
 
 $('.em-heart').animate({
