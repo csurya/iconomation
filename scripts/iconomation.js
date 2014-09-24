@@ -40,14 +40,18 @@ $('.em-musical_note').css({
 });
 $('.em-musical_note').animate({
   left:290,
-  top:50
+  top:-350
 
 }, 500);
+$('.em-musical_note').css({
+  left: 300,
+  top:170
+});
 $('.em-musical_note').animate({
   left:310,
-  top:-300
+  top:-350
 
-}, 1000);
+}, 500);
 }, 1000);
 
 
