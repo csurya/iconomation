@@ -36,15 +36,16 @@ setTimeout(function()
 {
 $('.em-musical_note').css({
   left: 300,
-  top:190
+  top:170
 });
-}, 1000);
-
 $('.em-musical_note').animate({
   left:290,
   top:210
 
 }, 2000, 'easeOutQuart');
+}, 1000);
+
+
 
 
 
