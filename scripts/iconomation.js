@@ -43,12 +43,16 @@ $('.em-musical_note').animate({
   top:-350
 
 }, 500);
+}, 1000);
+
+setTimeout(function()
+{
 $('.em-musical_note').css({
   left: 300,
   top:170
 });
 $('.em-musical_note').animate({
-  left:310,
+  left:290,
   top:-350
 
 }, 500);
