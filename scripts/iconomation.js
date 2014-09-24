@@ -26,7 +26,7 @@ $('.em-musical_note').css({
 
 $('.em-woman').animate({
   left:290,
-  top:200
+  top:210
 
 }, 1000);
 
