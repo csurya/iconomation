@@ -16,6 +16,11 @@ $('.em-princess').css({
   left: 100
 });
 
+$('.em-heart').css({
+  top: -200,
+  left: -100
+});
+
 
 // play!
 
