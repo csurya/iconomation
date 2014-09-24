@@ -5,12 +5,12 @@ $('.playspace').append('<i class="fa fa-futbol-o"></i>');
 
 // set the initial positions
 
-$('.em-rooster').css({
+$('.em-boy').css({
   top: 200,
   left: 300
 });
 
-$('.fa-futbol-o').css({
+$('.em-princess').css({
   top: 210,
   left: 100
 });
@@ -23,9 +23,13 @@ $('.em-rooster').animate({
 }, 1000);
 
 // after 660ms...
-setTimeout(function() {
+setTimeout(function()
+{
   // ...move the ball
-  $('.fa-futbol-o').animate({
+  $('.fa-futbol-o').animate
+  (
+  {
     left: 0
-  }, 800, 'easeOutQuart');
+  }, 800, 'easeOutQuart'
+  );
 }, 660);
