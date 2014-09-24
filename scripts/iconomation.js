@@ -19,20 +19,22 @@ $('.em-princess').css({
 
 // play!
 
+$('.em-boy').animate({
+  left:150
+
+}, 1000);
+
 //after a delay, show heart
 setTimeout(function()
 {
 
-//then move boy & heart
-$('.em-boy').animate({
-  left: 115
-}, 1000);
 
-$('.em-heart').animate({
-  left: 110
-}, 1000);
+$('.em-heart').css({
+  left: 4,
+  top:200
+});
 
-}, 660);
+}, 1000);
 
 
 
