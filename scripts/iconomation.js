@@ -44,10 +44,10 @@ $('.em-musical_note').animate({
 
 }, 500);
 $('.em-musical_note').animate({
-  left:350,
+  left:330,
   top:0
 
-}, 1000, 'easeOutQuart');
+}, 1000);
 }, 1000);
 
 
