@@ -40,7 +40,7 @@ $('.em-musical_note').css({
 });
 $('.em-musical_note').animate({
   left:290,
-  top:210
+  top:50
 
 }, 2000, 'easeOutQuart');
 }, 1000);
