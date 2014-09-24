@@ -18,7 +18,7 @@ $('.em-princess').css({
 
 // play!
 
-$('.em-rooster').animate({
+$('.em-boy').animate({
   left: 50
 }, 1000);
 
@@ -26,7 +26,7 @@ $('.em-rooster').animate({
 setTimeout(function()
 {
   // ...move the ball
-  $('.fa-futbol-o').animate
+  $('.em-princess').animate
   (
   {
     left: 0
