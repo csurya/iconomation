@@ -44,8 +44,8 @@ $('.em-musical_note').animate({
 
 }, 500);
 $('.em-musical_note').animate({
-  left:330,
-  top:-100
+  left:310,
+  top:-300
 
 }, 1000);
 }, 1000);
