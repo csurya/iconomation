@@ -32,7 +32,7 @@ $('.em-woman').animate({
 }, 1000);
 
 //after a delay, show music note
-for(i=0; i<5;i++){
+for(var i=0; i<5;i++){
 
 setTimeout(function()
 {
