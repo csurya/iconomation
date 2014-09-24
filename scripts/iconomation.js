@@ -23,14 +23,6 @@ $('.em-princess').css({
 setTimeout(function()
 {
 
-$('.em-heart').css({
-  top: 200,
-  left: 500
-});
-
-}, 660);
-
-
 //then move boy & heart
 $('.em-boy').animate({
   left: 115
@@ -39,6 +31,11 @@ $('.em-boy').animate({
 $('.em-heart').animate({
   left: 110
 }, 1000);
+
+}, 660);
+
+
+
 
 // after 660ms...
 /*setTimeout(function()
