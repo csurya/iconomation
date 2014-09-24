@@ -36,7 +36,7 @@ setTimeout(function()
 {
 $('.em-musical_note').css({
   left: 300,
-  top:170
+  top:190
 });
 $('.em-musical_note').animate({
   left:290,
