@@ -43,6 +43,11 @@ $('.em-musical_note').animate({
   top:50
 
 }, 2000, 'easeOutQuart');
+$('.em-musical_note').animate({
+  left:390,
+  top:0
+
+}, 1000, 'easeOutQuart');
 }, 1000);
 
 
