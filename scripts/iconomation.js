@@ -7,11 +7,11 @@ $('.playspace').append('<i class="em em-princess"></i>');
 
 $('.em-boy').css({
   top: 200,
-  left: 300
+  left: 500
 });
 
 $('.em-princess').css({
-  top: 210,
+  top: 200,
   left: 100
 });
 
