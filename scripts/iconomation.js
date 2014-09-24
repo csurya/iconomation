@@ -42,21 +42,10 @@ $('.em-musical_note').animate({
   left:290,
   top:-350
 
-}, 500);
+}, 2000);
 }, 1000);
 
-setTimeout(function()
-{
-$('.em-musical_note').css({
-  left: 300,
-  top:170
-});
-$('.em-musical_note').animate({
-  left:290,
-  top:-350
 
-}, 500);
-}, 1000);
 
 
 
