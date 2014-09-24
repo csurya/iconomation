@@ -1,22 +1,22 @@
 // add icons
-$('.playspace').append('<i class="em em-boy"></i>');
-$('.playspace').append('<i class="em em-princess"></i>');
-$('.playspace').append('<i class="em em-heart"></i>');
+$('.playspace').append('<i class="em em-musical_note"></i>');
+$('.playspace').append('<i class="em em-musical_keyboard"></i>');
+$('.playspace').append('<i class="em em-woman"></i>');
 
 
 // set the initial positions
 
-$('.em-boy').css({
+$('.em-musical_keyboard').css({
   top: 200,
-  left: 500
+  left: 300
 });
 
-$('.em-princess').css({
-  top: 200,
-  left: 100
+$('.em-woman').css({
+  top: 300,
+  left: 0
 });
 
-$('.em-heart').css({
+$('.em-musical_note').css({
   top: -200,
   left: -100
 });
@@ -24,21 +24,19 @@ $('.em-heart').css({
 
 // play!
 
-$('.em-boy').animate({
-  left:150
+$('.em-woman').animate({
+  left:290,
+  top:200
 
 }, 1000);
 
 //after a delay, show heart
 setTimeout(function()
 {
-
-
-$('.em-heart').css({
-  left: 4,
-  top:200
+$('.em-musical_note').css({
+  left: 300,
+  top:190
 });
-
 }, 1000);
 
 
