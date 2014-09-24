@@ -32,7 +32,7 @@ $('.em-woman').animate({
 }, 1000);
 
 //after a delay, show music note
-for(var i=0; i<5;i++){
+
 
 setTimeout(function()
 {
@@ -47,7 +47,7 @@ $('.em-musical_note').animate({
 }, 2000);
 }, 1000);
 
-}
+
 
 
 
