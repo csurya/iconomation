@@ -1,6 +1,6 @@
 // add icons
-$('.playspace').append('<i class="em em-rooster"></i>');
-$('.playspace').append('<i class="fa fa-futbol-o"></i>');
+$('.playspace').append('<i class="em em-boy"></i>');
+$('.playspace').append('<i class="em em-princess"></i>');
 
 
 // set the initial positions
