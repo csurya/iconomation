@@ -24,13 +24,14 @@ $('.em-musical_note').css({
 
 // play!
 
+//move woman near piano
 $('.em-woman').animate({
   left:290,
   top:210
 
 }, 1000);
 
-//after a delay, show heart
+//after a delay, show music note
 setTimeout(function()
 {
 $('.em-musical_note').css({
@@ -38,6 +39,12 @@ $('.em-musical_note').css({
   top:190
 });
 }, 1000);
+
+$('.em-musical_note').animate({
+  left:-290,
+  top:-210
+
+}, 1000, 'easeOutQuart');
 
 
 
