@@ -44,7 +44,7 @@ $('.em-musical_note').animate({
   left:260,
   top:-350
 
-}, 1000, 'easeInCirc');
+}, 2000, 'easeOutQuad');
 }, 1000);
 
 
