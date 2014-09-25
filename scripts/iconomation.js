@@ -41,7 +41,7 @@ $('.em-musical_note').css({
   top:190
 });
 $('.em-musical_note').animate({
-  left:290,
+  left:270,
   top:-350
 
 }, 2000);
